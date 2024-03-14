@@ -21,7 +21,7 @@ function crearRespuesta(texto) {
     let p = document.createElement('p');
 
     p.textContent = texto;
-    elementoHTMLRespuesta.insertBefore(p, cajaRespuesta.firstChild);
+    cajaRespuesta.insertBefore(p, cajaRespuesta.firstChild);
     
     return;
 }

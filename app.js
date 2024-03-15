@@ -84,10 +84,26 @@ function codificar() {
 
 // Función que vacía la caja de respuesta
 function vaciarCajaRespuesta() {
-    document.querySelector('.respuesta img').remove();
-    document.querySelector('.respuesta h1').remove();
-    document.querySelector('.respuesta h2').remove();
-    
+    let imagenHTML = document.querySelector('.respuesta img');
+    if (imagenHTML) {
+        imagenHTML.remove();
+    }
+
+    let h1HTML = document.querySelector('.respuesta h1');
+    if (h1HTML) {
+        h1HTML.remove();
+    }
+
+    let h2HTML = document.querySelector('.respuesta h2');
+    if (h2HTML) {
+        h2HTML.remove();
+    }
+
+    let pHTML = document.querySelector('.respuesta p');
+    if (pHTML) {
+        pHTML.remove();
+    }
+
     return;
 }
 

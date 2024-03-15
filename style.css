@@ -153,6 +153,10 @@ button:active{
     .respuesta img {
         display: none;
     }
+
+    .respuesta p {
+        height: auto;
+    }
 }
 
 @media (max-width:376px){
@@ -182,5 +186,9 @@ button:active{
     
     .respuesta img {
         display: none;
+    }
+    
+    .respuesta p {
+        height: auto;
     }
 }

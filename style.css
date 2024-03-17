@@ -136,7 +136,7 @@ button:active{
 
 }
 
-@media screen and (max-width:768px) and (min-width:376px){
+@media screen and (max-width:968px) and (min-width:576px){
     .icono-alura {
         display: block;
     }
@@ -163,7 +163,7 @@ button:active{
     }
 }
 
-@media (max-width:376px){
+@media (max-width:576px){
     .icono-alura {
         display: block;
     }

@@ -32,6 +32,10 @@ body {
     outline: none;
 }
 
+.entrada-texto textarea::placeholder {
+    color: #0A3871;
+}
+
 .entrada-texto .seccion-botones {
     width: 80%;
     margin: 0 10%;
